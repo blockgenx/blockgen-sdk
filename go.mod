@@ -1,6 +1,6 @@
 go 1.19
 
-module github.com/cosmos/cosmos-sdk
+module github.com/blockgenx/blockgen-sdk
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
