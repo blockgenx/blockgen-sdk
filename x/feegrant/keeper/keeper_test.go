@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
-	"github.com/cosmos/cosmos-sdk/x/feegrant/keeper"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/feegrant"
+	"github.com/blockgenx/blockgen-sdk/x/feegrant/keeper"
 )
 
 type KeeperTestSuite struct {

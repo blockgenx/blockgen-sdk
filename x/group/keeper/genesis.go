@@ -5,10 +5,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/x/group"
 )
 
 func (k Keeper) InitGenesis(ctx types.Context, cdc codec.JSONCodec, data json.RawMessage) []abci.ValidatorUpdate {

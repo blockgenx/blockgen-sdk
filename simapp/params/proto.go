@@ -4,9 +4,9 @@
 package params
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/codec/types"
+	"github.com/blockgenx/blockgen-sdk/x/auth/tx"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for a non-amino based test configuration.

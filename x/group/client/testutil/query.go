@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	client "github.com/cosmos/cosmos-sdk/x/group/client/cli"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/crypto/keys/ed25519"
+	"github.com/blockgenx/blockgen-sdk/testutil/cli"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/group"
+	client "github.com/blockgenx/blockgen-sdk/x/group/client/cli"
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 )

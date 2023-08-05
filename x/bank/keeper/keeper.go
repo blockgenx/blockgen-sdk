@@ -4,16 +4,16 @@ import (
 	"fmt"
 
 	"cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/internal/conv"
+	"github.com/blockgenx/blockgen-sdk/store/prefix"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/types/query"
+	authtypes "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	"github.com/blockgenx/blockgen-sdk/x/bank/types"
+	paramtypes "github.com/blockgenx/blockgen-sdk/x/params/types"
 )
 
 var _ Keeper = (*BaseKeeper)(nil)

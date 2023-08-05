@@ -3,8 +3,8 @@ package tx
 import (
 	fmt "fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/codec/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 const (

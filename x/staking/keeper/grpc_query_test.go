@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/query"
+	"github.com/blockgenx/blockgen-sdk/x/staking/keeper"
+	"github.com/blockgenx/blockgen-sdk/x/staking/teststaking"
+	"github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 func (suite *KeeperTestSuite) TestGRPCQueryValidators() {

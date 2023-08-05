@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/testutil/rest"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/authz"
+	"github.com/blockgenx/blockgen-sdk/x/authz/client/cli"
+	banktypes "github.com/blockgenx/blockgen-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestQueryGrantGRPC() {
@@ -209,7 +209,7 @@ func (s *IntegrationTestSuite) TestQueryGranterGrantsGRPC() {
 				var authorizations authz.QueryGranterGrantsResponse
 				err := val.ClientCtx.Codec.UnmarshalJSON(resp, &authorizations)
 				require.NoError(err)
-				// FIXME: https://github.com/cosmos/cosmos-sdk/issues/10965
+				// FIXME: https://github.com/blockgenx/blockgen-sdk/issues/10965
 				require.Len(authorizations.Grants, tc.numItems)
 			}
 		})
@@ -261,7 +261,7 @@ func (s *IntegrationTestSuite) TestQueryGranteeGrantsGRPC() {
 				var authorizations authz.QueryGranteeGrantsResponse
 				err := val.ClientCtx.Codec.UnmarshalJSON(resp, &authorizations)
 				require.NoError(err)
-				// FIXME: https://github.com/cosmos/cosmos-sdk/issues/10965
+				// FIXME: https://github.com/blockgenx/blockgen-sdk/issues/10965
 				require.Len(authorizations.Grants, tc.numItems)
 			}
 		})

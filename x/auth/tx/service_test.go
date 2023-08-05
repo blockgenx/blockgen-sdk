@@ -12,27 +12,27 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	authtest "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	clienttx "github.com/blockgenx/blockgen-sdk/client/tx"
+	"github.com/blockgenx/blockgen-sdk/crypto/hd"
+	"github.com/blockgenx/blockgen-sdk/crypto/keyring"
+	kmultisig "github.com/blockgenx/blockgen-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/blockgenx/blockgen-sdk/crypto/types"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	"github.com/blockgenx/blockgen-sdk/testutil/network"
+	"github.com/blockgenx/blockgen-sdk/testutil/rest"
+	"github.com/blockgenx/blockgen-sdk/testutil/testdata"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/types/query"
+	"github.com/blockgenx/blockgen-sdk/types/tx"
+	"github.com/blockgenx/blockgen-sdk/types/tx/signing"
+	authclient "github.com/blockgenx/blockgen-sdk/x/auth/client"
+	authtest "github.com/blockgenx/blockgen-sdk/x/auth/client/testutil"
+	authtx "github.com/blockgenx/blockgen-sdk/x/auth/tx"
+	bankcli "github.com/blockgenx/blockgen-sdk/x/bank/client/testutil"
+	banktypes "github.com/blockgenx/blockgen-sdk/x/bank/types"
 )
 
 var bankMsgSendEventAction = fmt.Sprintf("message.action='%s'", sdk.MsgTypeURL(&banktypes.MsgSend{}))
@@ -351,8 +351,8 @@ func (s IntegrationTestSuite) TestGetTxEvents_GRPC() {
 				s.Require().Equal("foobar", grpcRes.Txs[0].Body.Memo)
 				s.Require().Equal(len(grpcRes.Txs), tc.expLen)
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://github.com/blockgenx/blockgen-sdk/issues/8680
+				// ref: https://github.com/blockgenx/blockgen-sdk/issues/8681
 				s.Require().NotEmpty(grpcRes.TxResponses[0].Timestamp)
 				s.Require().NotEmpty(grpcRes.TxResponses[0].RawLog)
 			}
@@ -502,8 +502,8 @@ func (s IntegrationTestSuite) TestGetTx_GRPCGateway() {
 				s.Require().NotZero(result.TxResponse.Height)
 
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://github.com/blockgenx/blockgen-sdk/issues/8680
+				// ref: https://github.com/blockgenx/blockgen-sdk/issues/8681
 				s.Require().NotEmpty(result.TxResponse.Timestamp)
 				s.Require().NotEmpty(result.TxResponse.RawLog)
 			}

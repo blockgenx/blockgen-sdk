@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
+	"github.com/blockgenx/blockgen-sdk/types/module"
+	"github.com/blockgenx/blockgen-sdk/x/capability/types"
 )
 
 // Simulation parameter constants

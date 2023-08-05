@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
+	"github.com/blockgenx/blockgen-sdk/orm/encoding/ormkv"
 )
 
 // View defines a read-only table.

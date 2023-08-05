@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/server"
+	"github.com/blockgenx/blockgen-sdk/x/genutil"
+	"github.com/blockgenx/blockgen-sdk/x/genutil/types"
 )
 
 const flagGenTxDir = "gentx-dir"

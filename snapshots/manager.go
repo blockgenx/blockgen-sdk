@@ -12,8 +12,8 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/snapshots/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
 )
 
 // Manager manages snapshot and restore operations for an app, making sure only a single

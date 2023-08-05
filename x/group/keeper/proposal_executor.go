@@ -3,11 +3,11 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	grouperrors "github.com/cosmos/cosmos-sdk/x/group/errors"
+	"github.com/blockgenx/blockgen-sdk/baseapp"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/x/group"
+	grouperrors "github.com/blockgenx/blockgen-sdk/x/group/errors"
 )
 
 // doExecuteMsgs routes the messages to the registered handlers. Messages are limited to those that require no authZ or
@@ -20,7 +20,7 @@ func (s Keeper) doExecuteMsgs(ctx sdk.Context, router *baseapp.MsgServiceRouter,
 	}
 
 	// Ensure it's not too late to execute the messages.
-	// After https://github.com/cosmos/cosmos-sdk/issues/11245, proposals should
+	// After https://github.com/blockgenx/blockgen-sdk/issues/11245, proposals should
 	// be pruned automatically, so this function should not even be called, as
 	// the proposal doesn't exist in state. For sanity check, we can still keep
 	// this simple and cheap check.

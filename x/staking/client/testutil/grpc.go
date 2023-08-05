@@ -5,15 +5,15 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/blockgenx/blockgen-sdk/crypto/hd"
+	"github.com/blockgenx/blockgen-sdk/crypto/keyring"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	"github.com/blockgenx/blockgen-sdk/testutil/rest"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	grpctypes "github.com/blockgenx/blockgen-sdk/types/grpc"
+	"github.com/blockgenx/blockgen-sdk/types/query"
+	"github.com/blockgenx/blockgen-sdk/x/staking/client/cli"
+	"github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 func (s *IntegrationTestSuite) TestGRPCQueryValidatorsHandler() {

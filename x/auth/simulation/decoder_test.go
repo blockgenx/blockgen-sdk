@@ -7,12 +7,12 @@ import (
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/auth/simulation"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/blockgenx/blockgen-sdk/crypto/keys/ed25519"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/kv"
+	"github.com/blockgenx/blockgen-sdk/x/auth/simulation"
+	"github.com/blockgenx/blockgen-sdk/x/auth/types"
 )
 
 var (

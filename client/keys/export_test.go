@@ -8,15 +8,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/crypto/hd"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	"github.com/blockgenx/blockgen-sdk/testutil/testdata"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/crypto/keyring"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 func Test_runExportCmd(t *testing.T) {

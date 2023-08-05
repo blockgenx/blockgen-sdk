@@ -7,13 +7,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	serverTypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/store/streaming/file"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/baseapp"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	serverTypes "github.com/blockgenx/blockgen-sdk/server/types"
+	"github.com/blockgenx/blockgen-sdk/store/streaming/file"
+	"github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 
 	"github.com/spf13/cast"
 )

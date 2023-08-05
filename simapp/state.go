@@ -12,15 +12,15 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 
 	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/crypto/keys/secp256k1"
+	simappparams "github.com/blockgenx/blockgen-sdk/simapp/params"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/module"
+	simtypes "github.com/blockgenx/blockgen-sdk/types/simulation"
+	authtypes "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	banktypes "github.com/blockgenx/blockgen-sdk/x/bank/types"
+	stakingtypes "github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 // AppStateFn returns the initial application state using a genesis or the simulation parameters.

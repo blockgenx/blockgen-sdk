@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/blockgenx/blockgen-sdk/testutil/testdata"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	banktypes "github.com/blockgenx/blockgen-sdk/x/bank/types"
+	v1 "github.com/blockgenx/blockgen-sdk/x/gov/types/v1"
+	"github.com/blockgenx/blockgen-sdk/x/gov/types/v1beta1"
 )
 
 func (suite *KeeperTestSuite) TestSubmitProposalReq() {

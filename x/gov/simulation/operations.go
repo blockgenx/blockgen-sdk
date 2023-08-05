@@ -5,16 +5,16 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/keeper"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/blockgenx/blockgen-sdk/baseapp"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/simapp/helpers"
+	simappparams "github.com/blockgenx/blockgen-sdk/simapp/params"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	simtypes "github.com/blockgenx/blockgen-sdk/types/simulation"
+	"github.com/blockgenx/blockgen-sdk/x/gov/keeper"
+	"github.com/blockgenx/blockgen-sdk/x/gov/types"
+	v1 "github.com/blockgenx/blockgen-sdk/x/gov/types/v1"
+	"github.com/blockgenx/blockgen-sdk/x/simulation"
 )
 
 var initialProposalID = uint64(100000000000000)

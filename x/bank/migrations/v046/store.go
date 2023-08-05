@@ -1,13 +1,13 @@
 package v046
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v043 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/store/prefix"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/address"
+	v043 "github.com/blockgenx/blockgen-sdk/x/bank/migrations/v043"
+	"github.com/blockgenx/blockgen-sdk/x/bank/types"
 )
 
 // MigrateStore performs in-place store migrations from v0.43 to v0.45. The
@@ -100,7 +100,7 @@ func migrateDenomMetadata(store sdk.KVStore) error {
 // from <=v0.45.
 //
 // This function migrates the store in-place by fixing the bank denom bug
-// discovered in https://github.com/cosmos/cosmos-sdk/pull/13821. It has been
+// discovered in https://github.com/blockgenx/blockgen-sdk/pull/13821. It has been
 // fixed in v0.46.5, but if your chain had already migrated to v0.46, then you
 // can apply this patch (in a coordinated upgrade, e.g. in the upgrade handler)
 // to fix the bank denom state.
@@ -117,7 +117,7 @@ func Migrate_V046_4_To_V046_5(store sdk.KVStore) error {
 
 		// In the previous bugged version, we took one character too long,
 		// see this line diff:
-		// https://github.com/cosmos/cosmos-sdk/commit/62443b8c28a23efe43df2158aa2833c02c42af16#diff-d4d8a522eca0bd1fd052a756b80d0a50bff7bd8e487105221475eb78e232b46aR83
+		// https://github.com/blockgenx/blockgen-sdk/commit/62443b8c28a23efe43df2158aa2833c02c42af16#diff-d4d8a522eca0bd1fd052a756b80d0a50bff7bd8e487105221475eb78e232b46aR83
 		//
 		// Therefore we trim the last byte.
 		newKey := oldKey[:len(oldKey)-1]

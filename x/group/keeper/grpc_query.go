@@ -6,12 +6,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/types/query"
+	"github.com/blockgenx/blockgen-sdk/x/group"
+	"github.com/blockgenx/blockgen-sdk/x/group/errors"
+	"github.com/blockgenx/blockgen-sdk/x/group/internal/orm"
 )
 
 var _ group.QueryServer = Keeper{}

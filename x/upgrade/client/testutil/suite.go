@@ -6,12 +6,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	clitestutil "github.com/blockgenx/blockgen-sdk/testutil/cli"
+	"github.com/blockgenx/blockgen-sdk/testutil/network"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/upgrade/client/cli"
+	"github.com/blockgenx/blockgen-sdk/x/upgrade/types"
 )
 
 func NewIntegrationTestSuite(cfg network.Config) *IntegrationTestSuite {

@@ -11,15 +11,15 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codecTypes "github.com/cosmos/cosmos-sdk/codec/types"
-	pruningtypes "github.com/cosmos/cosmos-sdk/pruning/types"
-	"github.com/cosmos/cosmos-sdk/store/cachemulti"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	sdkmaps "github.com/cosmos/cosmos-sdk/store/internal/maps"
-	"github.com/cosmos/cosmos-sdk/store/listenkv"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	codecTypes "github.com/blockgenx/blockgen-sdk/codec/types"
+	pruningtypes "github.com/blockgenx/blockgen-sdk/pruning/types"
+	"github.com/blockgenx/blockgen-sdk/store/cachemulti"
+	"github.com/blockgenx/blockgen-sdk/store/iavl"
+	sdkmaps "github.com/blockgenx/blockgen-sdk/store/internal/maps"
+	"github.com/blockgenx/blockgen-sdk/store/listenkv"
+	"github.com/blockgenx/blockgen-sdk/store/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
 )
 
 func TestStoreType(t *testing.T) {

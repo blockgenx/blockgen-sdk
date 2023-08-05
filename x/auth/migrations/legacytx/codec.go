@@ -1,7 +1,7 @@
 package legacytx
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/codec"
 )
 
 func RegisterLegacyAminoCodec(cdc *codec.LegacyAmino) {

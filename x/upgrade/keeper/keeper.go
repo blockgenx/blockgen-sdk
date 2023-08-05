@@ -11,16 +11,16 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmos "github.com/tendermint/tendermint/libs/os"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	xp "github.com/cosmos/cosmos-sdk/x/upgrade/exported"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/store/prefix"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/types/kv"
+	"github.com/blockgenx/blockgen-sdk/types/module"
+	xp "github.com/blockgenx/blockgen-sdk/x/upgrade/exported"
+	"github.com/blockgenx/blockgen-sdk/x/upgrade/types"
 )
 
 // Deprecated: UpgradeInfoFileName file to store upgrade information

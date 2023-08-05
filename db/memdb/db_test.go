@@ -3,8 +3,8 @@ package memdb
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/db/dbtest"
+	"github.com/blockgenx/blockgen-sdk/db"
+	"github.com/blockgenx/blockgen-sdk/db/dbtest"
 )
 
 func BenchmarkMemDBRangeScans1M(b *testing.B) {

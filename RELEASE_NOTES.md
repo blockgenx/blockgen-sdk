@@ -13,6 +13,6 @@ Additionally, the SDK sets its minimum version to Go 1.19. This is not because t
 Note, that SDK recommends chains to use the same Go version across all of their network.
 We recommend, as well, chains to perform a **coordinated upgrade** when migrating from Go 1.18 to Go 1.19.
 
-Please see the [CHANGELOG](https://github.com/cosmos/cosmos-sdk/blob/release/v0.46.x/CHANGELOG.md) for an exhaustive list of changes.
+Please see the [CHANGELOG](https://github.com/blockgenx/blockgen-sdk/blob/release/v0.46.x/CHANGELOG.md) for an exhaustive list of changes.
 
-**Full Commit History**: https://github.com/cosmos/cosmos-sdk/compare/v0.46.10...v0.46.11
+**Full Commit History**: https://github.com/blockgenx/blockgen-sdk/compare/v0.46.10...v0.46.11

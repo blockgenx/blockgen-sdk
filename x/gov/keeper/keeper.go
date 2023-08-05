@@ -6,14 +6,14 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/blockgenx/blockgen-sdk/baseapp"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	authtypes "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	"github.com/blockgenx/blockgen-sdk/x/gov/types"
+	v1 "github.com/blockgenx/blockgen-sdk/x/gov/types/v1"
+	"github.com/blockgenx/blockgen-sdk/x/gov/types/v1beta1"
 )
 
 // Keeper defines the governance module Keeper

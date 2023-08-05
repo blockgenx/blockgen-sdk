@@ -11,16 +11,16 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	"github.com/cosmos/cosmos-sdk/x/capability/simulation"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	cdctypes "github.com/blockgenx/blockgen-sdk/codec/types"
+	"github.com/blockgenx/blockgen-sdk/telemetry"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/module"
+	simtypes "github.com/blockgenx/blockgen-sdk/types/simulation"
+	"github.com/blockgenx/blockgen-sdk/x/capability/keeper"
+	"github.com/blockgenx/blockgen-sdk/x/capability/simulation"
+	"github.com/blockgenx/blockgen-sdk/x/capability/types"
 )
 
 var (

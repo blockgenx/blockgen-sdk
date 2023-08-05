@@ -4,20 +4,20 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/blockgenx/blockgen-sdk/testutil"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	clitestutil "github.com/blockgenx/blockgen-sdk/testutil/cli"
+	"github.com/blockgenx/blockgen-sdk/testutil/network"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	authtypes "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	"github.com/blockgenx/blockgen-sdk/x/gov/client/cli"
+	"github.com/blockgenx/blockgen-sdk/x/gov/types"
+	v1 "github.com/blockgenx/blockgen-sdk/x/gov/types/v1"
+	"github.com/blockgenx/blockgen-sdk/x/gov/types/v1beta1"
 )
 
 type IntegrationTestSuite struct {

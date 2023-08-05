@@ -3,10 +3,10 @@ package v046
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/blockgenx/blockgen-sdk/internal/conv"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/address"
+	"github.com/blockgenx/blockgen-sdk/types/kv"
 )
 
 // Keys for store prefixes

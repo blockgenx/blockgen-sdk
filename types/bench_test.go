@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 var coinStrs = []string{

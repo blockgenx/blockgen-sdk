@@ -9,8 +9,8 @@ import (
 	"cosmossdk.io/math"
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 // Implements Delegation interface

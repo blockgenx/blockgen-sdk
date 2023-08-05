@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/blockgenx/blockgen-sdk/client"
+	cryptotypes "github.com/blockgenx/blockgen-sdk/crypto/types"
 )
 
 // DONTCOVER

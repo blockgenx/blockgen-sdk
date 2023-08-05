@@ -3,7 +3,7 @@ package ormfield
 import (
 	"io"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/blockgenx/blockgen-sdk/orm/types/ormerrors"
 
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"

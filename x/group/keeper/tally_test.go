@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	banktypes "github.com/blockgenx/blockgen-sdk/x/bank/types"
+	"github.com/blockgenx/blockgen-sdk/x/group"
 )
 
 func (s *TestSuite) TestTally() {

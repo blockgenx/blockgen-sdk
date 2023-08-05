@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/blockgenx/blockgen-sdk/x/simulation"
 
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	simtypes "github.com/blockgenx/blockgen-sdk/types/simulation"
+	"github.com/blockgenx/blockgen-sdk/x/distribution/types"
 )
 
 const (

@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	codectypes "github.com/blockgenx/blockgen-sdk/codec/types"
+	cryptotypes "github.com/blockgenx/blockgen-sdk/crypto/types"
+	"github.com/blockgenx/blockgen-sdk/testutil/testdata"
+	"github.com/blockgenx/blockgen-sdk/types/tx"
+	"github.com/blockgenx/blockgen-sdk/types/tx/signing"
 )
 
 func TestSignDocDirectAux(t *testing.T) {

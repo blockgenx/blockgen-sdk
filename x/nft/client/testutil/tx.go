@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/testutil/network"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	banktestutil "github.com/blockgenx/blockgen-sdk/x/bank/client/testutil"
 
-	"github.com/cosmos/cosmos-sdk/x/nft"
+	"github.com/blockgenx/blockgen-sdk/x/nft"
 )
 
 const (

@@ -1,12 +1,12 @@
 package keeper_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramskeeper "github.com/cosmos/cosmos-sdk/x/params/keeper"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	paramskeeper "github.com/blockgenx/blockgen-sdk/x/params/keeper"
 )
 
 func testComponents() (*codec.LegacyAmino, sdk.Context, storetypes.StoreKey, storetypes.StoreKey, paramskeeper.Keeper) {

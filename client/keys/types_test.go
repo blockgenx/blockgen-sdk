@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/keys"
+	"github.com/blockgenx/blockgen-sdk/client/keys"
 )
 
 func TestConstructors(t *testing.T) {

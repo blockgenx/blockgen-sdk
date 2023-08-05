@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	paramtypes "github.com/blockgenx/blockgen-sdk/x/params/types"
 )
 
 // Default period for deposits & voting

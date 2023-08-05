@@ -4,7 +4,7 @@ import (
 	"cosmossdk.io/math"
 	"sigs.k8s.io/yaml"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 // ValidatorGovInfo used for tallying

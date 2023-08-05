@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/simapp/simd/cmd"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	svrcmd "github.com/blockgenx/blockgen-sdk/server/cmd"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	"github.com/blockgenx/blockgen-sdk/simapp/simd/cmd"
+	"github.com/blockgenx/blockgen-sdk/x/genutil/client/cli"
 )
 
 func TestInitCmd(t *testing.T) {

@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v040slashing "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v042"
-	v043slashing "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	"github.com/blockgenx/blockgen-sdk/testutil/testdata"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	v040slashing "github.com/blockgenx/blockgen-sdk/x/slashing/migrations/v042"
+	v043slashing "github.com/blockgenx/blockgen-sdk/x/slashing/migrations/v043"
+	"github.com/blockgenx/blockgen-sdk/x/slashing/types"
 )
 
 func TestStoreMigration(t *testing.T) {

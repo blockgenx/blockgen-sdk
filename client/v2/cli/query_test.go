@@ -14,7 +14,7 @@ import (
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/golden"
 
-	"github.com/cosmos/cosmos-sdk/client/v2/internal/testpb"
+	"github.com/blockgenx/blockgen-sdk/client/v2/internal/testpb"
 )
 
 func testExec(t *testing.T, args ...string) *testClientConn {

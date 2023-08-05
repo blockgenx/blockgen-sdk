@@ -1,10 +1,10 @@
 package testutil
 
 import (
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	clitestutil "github.com/blockgenx/blockgen-sdk/testutil/cli"
+	"github.com/blockgenx/blockgen-sdk/testutil/network"
+	"github.com/blockgenx/blockgen-sdk/x/authz/client/cli"
 )
 
 func CreateGrant(val *network.Validator, args []string) (testutil.BufferWriter, error) {

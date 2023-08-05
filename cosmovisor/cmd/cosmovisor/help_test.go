@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/cosmovisor"
+	"github.com/blockgenx/blockgen-sdk/cosmovisor"
 )
 
 type HelpTestSuite struct {
@@ -92,7 +92,7 @@ func (s *HelpTestSuite) TestGetHelpText() {
 	expectedPieces := []string{
 		"Cosmosvisor",
 		cosmovisor.EnvName, cosmovisor.EnvHome,
-		"https://github.com/cosmos/cosmos-sdk/tree/main/cosmovisor/README.md",
+		"https://github.com/blockgenx/blockgen-sdk/tree/main/cosmovisor/README.md",
 	}
 
 	actual := GetHelpText()

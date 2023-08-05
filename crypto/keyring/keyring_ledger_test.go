@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/crypto/hd"
+	"github.com/blockgenx/blockgen-sdk/types"
 )
 
 func TestInMemoryCreateLedger(t *testing.T) {

@@ -7,15 +7,15 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/encodeutil"
+	"github.com/blockgenx/blockgen-sdk/orm/encoding/encodeutil"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/blockgenx/blockgen-sdk/orm/encoding/ormkv"
+	"github.com/blockgenx/blockgen-sdk/orm/types/ormerrors"
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
+	"github.com/blockgenx/blockgen-sdk/orm/model/ormtable"
 )
 
 type fileDescriptorDBOptions struct {

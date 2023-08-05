@@ -2,8 +2,8 @@
 
 This package contains the constructors for the `StreamingService`s used to write
 state changes out from individual KVStores to a file or stream, as described in
-[ADR-038](https://github.com/cosmos/cosmos-sdk/blob/main/docs/architecture/adr-038-state-listening.md)
-and defined in [types/streaming.go](https://github.com/cosmos/cosmos-sdk/blob/main/baseapp/streaming.go).
+[ADR-038](https://github.com/blockgenx/blockgen-sdk/blob/main/docs/architecture/adr-038-state-listening.md)
+and defined in [types/streaming.go](https://github.com/blockgenx/blockgen-sdk/blob/main/baseapp/streaming.go).
 The child directories contain the implementations for specific output destinations.
 
 Currently, a `StreamingService` implementation that writes state changes out to

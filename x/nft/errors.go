@@ -1,7 +1,7 @@
 package nft
 
 import (
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
 )
 
 // x/nft module sentinel errors

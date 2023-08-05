@@ -7,13 +7,13 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/server/grpc/gogoreflection"
-	reflection "github.com/cosmos/cosmos-sdk/server/grpc/reflection/v2alpha1"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/server/config"
+	"github.com/blockgenx/blockgen-sdk/server/grpc/gogoreflection"
+	reflection "github.com/blockgenx/blockgen-sdk/server/grpc/reflection/v2alpha1"
+	"github.com/blockgenx/blockgen-sdk/server/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 // StartGRPCServer starts a gRPC server on the given address.

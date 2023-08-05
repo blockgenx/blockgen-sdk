@@ -3,10 +3,10 @@ package orm
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/store/gaskv"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/store"
+	"github.com/blockgenx/blockgen-sdk/store/gaskv"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

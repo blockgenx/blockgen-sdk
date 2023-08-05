@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/cosmos/cosmos-sdk/container"
+	"github.com/blockgenx/blockgen-sdk/container"
 
 	"cosmossdk.io/core/appmodule"
 )

@@ -1,10 +1,10 @@
 package client
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/tx"
+	signingtypes "github.com/blockgenx/blockgen-sdk/types/tx/signing"
+	"github.com/blockgenx/blockgen-sdk/x/auth/signing"
 )
 
 type (

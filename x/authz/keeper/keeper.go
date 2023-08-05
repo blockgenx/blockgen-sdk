@@ -9,19 +9,19 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/authz"
+	"github.com/blockgenx/blockgen-sdk/baseapp"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	codectypes "github.com/blockgenx/blockgen-sdk/codec/types"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	authkeeper "github.com/blockgenx/blockgen-sdk/x/auth/keeper"
+	"github.com/blockgenx/blockgen-sdk/x/authz"
 )
 
 // TODO: Revisit this once we have propoer gas fee framework.
-// Tracking issues https://github.com/cosmos/cosmos-sdk/issues/9054,
-// https://github.com/cosmos/cosmos-sdk/discussions/9072
+// Tracking issues https://github.com/blockgenx/blockgen-sdk/issues/9054,
+// https://github.com/blockgenx/blockgen-sdk/discussions/9072
 const gasCostPerIteration = uint64(20)
 
 type Keeper struct {

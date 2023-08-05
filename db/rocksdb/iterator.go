@@ -5,7 +5,7 @@ package rocksdb
 import (
 	"bytes"
 
-	"github.com/cosmos/cosmos-sdk/db"
+	"github.com/blockgenx/blockgen-sdk/db"
 	"github.com/cosmos/gorocksdb"
 )
 

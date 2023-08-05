@@ -6,10 +6,10 @@ import (
 	protoio "github.com/gogo/protobuf/io"
 	dbm "github.com/tendermint/tm-db"
 
-	pruningtypes "github.com/cosmos/cosmos-sdk/pruning/types"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	pruningtypes "github.com/blockgenx/blockgen-sdk/pruning/types"
+	snapshottypes "github.com/blockgenx/blockgen-sdk/snapshots/types"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 var _ sdk.MultiStore = multiStore{}

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	cverrors "github.com/cosmos/cosmos-sdk/cosmovisor/errors"
-	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	cverrors "github.com/blockgenx/blockgen-sdk/cosmovisor/errors"
+	upgradekeeper "github.com/blockgenx/blockgen-sdk/x/upgrade/keeper"
+	upgradetypes "github.com/blockgenx/blockgen-sdk/x/upgrade/types"
 	"github.com/rs/zerolog"
 )
 

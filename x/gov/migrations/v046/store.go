@@ -1,13 +1,13 @@
 package v046
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v042 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v042"
-	govv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/store/prefix"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	v042 "github.com/blockgenx/blockgen-sdk/x/gov/migrations/v042"
+	govv1 "github.com/blockgenx/blockgen-sdk/x/gov/types/v1"
+	govv1beta1 "github.com/blockgenx/blockgen-sdk/x/gov/types/v1beta1"
 )
 
 // migrateProposals migrates all legacy proposals into MsgExecLegacyContent

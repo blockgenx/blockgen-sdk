@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 // UnbondingTime
@@ -43,7 +43,7 @@ func (k Keeper) BondDenom(ctx sdk.Context) (res string) {
 // PowerReduction - is the amount of staking tokens required for 1 unit of consensus-engine power.
 // Currently, this returns a global variable that the app developer can tweak.
 // TODO: we might turn this into an on-chain param:
-// https://github.com/cosmos/cosmos-sdk/issues/8365
+// https://github.com/blockgenx/blockgen-sdk/issues/8365
 func (k Keeper) PowerReduction(ctx sdk.Context) math.Int {
 	return sdk.DefaultPowerReduction
 }

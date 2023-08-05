@@ -4,8 +4,8 @@ import (
 	"io"
 	"math"
 
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	snapshottypes "github.com/blockgenx/blockgen-sdk/snapshots/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
 )
 
 // ChunkWriter reads an input stream, splits it into fixed-size chunks, and writes them to a

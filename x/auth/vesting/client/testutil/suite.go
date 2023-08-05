@@ -6,11 +6,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/client/cli"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	clitestutil "github.com/blockgenx/blockgen-sdk/testutil/cli"
+	"github.com/blockgenx/blockgen-sdk/testutil/network"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/auth/vesting/client/cli"
 )
 
 type IntegrationTestSuite struct {

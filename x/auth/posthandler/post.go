@@ -1,7 +1,7 @@
 package posthandler
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 // HandlerOptions are the options required for constructing a default SDK PostHandler.

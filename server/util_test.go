@@ -16,15 +16,15 @@ import (
 	tmcfg "github.com/tendermint/tendermint/config"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/server"
+	"github.com/blockgenx/blockgen-sdk/server/config"
+	servertypes "github.com/blockgenx/blockgen-sdk/server/types"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	"github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	genutilcli "github.com/blockgenx/blockgen-sdk/x/genutil/client/cli"
 )
 
 var cancelledInPreRun = errors.New("Cancelled in prerun")
@@ -391,7 +391,7 @@ func TestInterceptConfigsPreRunHandlerPrecedenceConfigDefault(t *testing.T) {
 
 // Ensure that if interceptConfigs encounters any error other than non-existen errors
 // that we correctly return the offending error, for example a permission error.
-// See https://github.com/cosmos/cosmos-sdk/issues/7578
+// See https://github.com/blockgenx/blockgen-sdk/issues/7578
 func TestInterceptConfigsWithBadPermissions(t *testing.T) {
 	tempDir := t.TempDir()
 	subDir := filepath.Join(tempDir, "nonPerms")

@@ -3,8 +3,8 @@ package v1beta1
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/codec/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 // NewGenesisState creates a new genesis state for the governance module

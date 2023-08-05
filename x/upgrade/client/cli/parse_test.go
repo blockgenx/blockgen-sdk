@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/blockgenx/blockgen-sdk/x/gov/client/cli"
+	"github.com/blockgenx/blockgen-sdk/x/upgrade/types"
 	"github.com/stretchr/testify/require"
 )
 

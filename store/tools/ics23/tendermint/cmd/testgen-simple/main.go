@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	tmproofs "github.com/cosmos/cosmos-sdk/store/internal/proofs"
+	tmproofs "github.com/blockgenx/blockgen-sdk/store/internal/proofs"
 
 	ics23 "github.com/confio/ics23/go"
 )

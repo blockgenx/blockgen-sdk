@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	gov "github.com/blockgenx/blockgen-sdk/x/gov/types/v1beta1"
 )
 
 const (

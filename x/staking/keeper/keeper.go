@@ -4,13 +4,13 @@ import (
 	"fmt"
 
 	"cosmossdk.io/math"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	paramtypes "github.com/blockgenx/blockgen-sdk/x/params/types"
+	"github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 // Implements ValidatorSet interface

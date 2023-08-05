@@ -3,7 +3,7 @@ package util
 import (
 	"fmt"
 
-	dbm "github.com/cosmos/cosmos-sdk/db"
+	dbm "github.com/blockgenx/blockgen-sdk/db"
 )
 
 func ValidateKv(key, value []byte) error {

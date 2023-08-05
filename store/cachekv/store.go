@@ -8,11 +8,11 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	"github.com/cosmos/cosmos-sdk/store/cachekv/internal"
-	"github.com/cosmos/cosmos-sdk/store/tracekv"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/blockgenx/blockgen-sdk/internal/conv"
+	"github.com/blockgenx/blockgen-sdk/store/cachekv/internal"
+	"github.com/blockgenx/blockgen-sdk/store/tracekv"
+	"github.com/blockgenx/blockgen-sdk/store/types"
+	"github.com/blockgenx/blockgen-sdk/types/kv"
 )
 
 // cValue represents a cached value.

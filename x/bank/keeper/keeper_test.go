@@ -10,17 +10,17 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	vesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/blockgenx/blockgen-sdk/baseapp"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/query"
+	authkeeper "github.com/blockgenx/blockgen-sdk/x/auth/keeper"
+	authtypes "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	vesting "github.com/blockgenx/blockgen-sdk/x/auth/vesting/types"
+	"github.com/blockgenx/blockgen-sdk/x/bank/keeper"
+	"github.com/blockgenx/blockgen-sdk/x/bank/testutil"
+	"github.com/blockgenx/blockgen-sdk/x/bank/types"
+	minttypes "github.com/blockgenx/blockgen-sdk/x/mint/types"
 )
 
 const (

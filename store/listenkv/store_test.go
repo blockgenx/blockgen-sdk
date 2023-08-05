@@ -6,12 +6,12 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codecTypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/listenkv"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	codecTypes "github.com/blockgenx/blockgen-sdk/codec/types"
+	"github.com/blockgenx/blockgen-sdk/store/dbadapter"
+	"github.com/blockgenx/blockgen-sdk/store/listenkv"
+	"github.com/blockgenx/blockgen-sdk/store/prefix"
+	"github.com/blockgenx/blockgen-sdk/store/types"
 
 	"github.com/stretchr/testify/require"
 

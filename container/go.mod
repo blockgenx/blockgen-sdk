@@ -1,4 +1,4 @@
-module github.com/cosmos/cosmos-sdk/container
+module github.com/blockgenx/blockgen-sdk/container
 
 go 1.18
 

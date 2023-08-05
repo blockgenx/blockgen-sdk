@@ -6,7 +6,7 @@ package nft
 import (
 	context "context"
 	fmt "fmt"
-	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
+	_ "github.com/blockgenx/blockgen-sdk/types/msgservice"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
 	grpc "google.golang.org/grpc"

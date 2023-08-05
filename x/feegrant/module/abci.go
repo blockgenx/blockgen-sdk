@@ -1,8 +1,8 @@
 package module
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/feegrant/keeper"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/feegrant/keeper"
 )
 
 func EndBlocker(ctx sdk.Context, k keeper.Keeper) {

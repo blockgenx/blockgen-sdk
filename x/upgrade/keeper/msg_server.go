@@ -3,10 +3,10 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/errors"
+	gov "github.com/blockgenx/blockgen-sdk/x/gov/types"
+	"github.com/blockgenx/blockgen-sdk/x/upgrade/types"
 )
 
 type msgServer struct {

@@ -3,13 +3,13 @@ package tx
 import (
 	"fmt"
 
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	signingtypes "github.com/blockgenx/blockgen-sdk/types/tx/signing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/codec"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/blockgenx/blockgen-sdk/client"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/auth/signing"
 )
 
 type config struct {

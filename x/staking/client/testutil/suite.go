@@ -12,19 +12,19 @@ import (
 	"github.com/tendermint/tendermint/proto/tendermint/crypto"
 	"github.com/tendermint/tendermint/rpc/client/http"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/crypto/hd"
+	"github.com/blockgenx/blockgen-sdk/crypto/keyring"
+	"github.com/blockgenx/blockgen-sdk/crypto/keys/ed25519"
+	clitestutil "github.com/blockgenx/blockgen-sdk/testutil/cli"
+	"github.com/blockgenx/blockgen-sdk/testutil/network"
+	"github.com/blockgenx/blockgen-sdk/testutil/rest"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/types/query"
+	banktestutil "github.com/blockgenx/blockgen-sdk/x/bank/client/testutil"
+	"github.com/blockgenx/blockgen-sdk/x/staking/client/cli"
+	"github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {
@@ -1430,7 +1430,7 @@ func (s *IntegrationTestSuite) TestNewCancelUnbondingDelegationCmd() {
 
 // TestBlockResults tests that the validator updates correctly show when
 // calling the /block_results RPC endpoint.
-// ref: https://github.com/cosmos/cosmos-sdk/issues/7401.
+// ref: https://github.com/blockgenx/blockgen-sdk/issues/7401.
 func (s *IntegrationTestSuite) TestBlockResults() {
 	require := s.Require()
 	val := s.network.Validators[0]
@@ -1500,7 +1500,7 @@ func (s *IntegrationTestSuite) TestBlockResults() {
 	}
 }
 
-// https://github.com/cosmos/cosmos-sdk/issues/10660
+// https://github.com/blockgenx/blockgen-sdk/issues/10660
 func (s *IntegrationTestSuite) TestEditValidatorMoniker() {
 	val := s.network.Validators[0]
 	require := s.Require()

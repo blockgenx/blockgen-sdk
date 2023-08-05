@@ -15,10 +15,10 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	db "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/snapshots"
+	snapshottypes "github.com/blockgenx/blockgen-sdk/snapshots/types"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
 )
 
 func checksums(slice [][]byte) [][]byte {

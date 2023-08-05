@@ -6,12 +6,12 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	pruningtypes "github.com/cosmos/cosmos-sdk/pruning/types"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/codec/types"
+	pruningtypes "github.com/blockgenx/blockgen-sdk/pruning/types"
+	"github.com/blockgenx/blockgen-sdk/snapshots"
+	snapshottypes "github.com/blockgenx/blockgen-sdk/snapshots/types"
+	"github.com/blockgenx/blockgen-sdk/store"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 // File for storing in-package BaseApp optional functions,
@@ -251,7 +251,7 @@ func (app *BaseApp) SetStreamingService(s StreamingService) {
 
 // SetQueryMultiStore set a alternative MultiStore implementation to support grpc query service.
 //
-// Ref: https://github.com/cosmos/cosmos-sdk/issues/13317
+// Ref: https://github.com/blockgenx/blockgen-sdk/issues/13317
 func (app *BaseApp) SetQueryMultiStore(ms sdk.MultiStore) {
 	if app.sealed {
 		panic("SetQueryMultiStore() on sealed BaseApp")

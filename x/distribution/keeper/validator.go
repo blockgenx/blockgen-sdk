@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/blockgenx/blockgen-sdk/x/distribution/types"
+	stakingtypes "github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 // initialize rewards for a new validator

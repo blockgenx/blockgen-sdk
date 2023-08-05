@@ -1,14 +1,14 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	authzcodec "github.com/cosmos/cosmos-sdk/x/authz/codec"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	"github.com/blockgenx/blockgen-sdk/codec/legacy"
+	"github.com/blockgenx/blockgen-sdk/codec/types"
+	cryptocodec "github.com/blockgenx/blockgen-sdk/crypto/codec"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/msgservice"
+	"github.com/blockgenx/blockgen-sdk/x/authz"
+	authzcodec "github.com/blockgenx/blockgen-sdk/x/authz/codec"
 )
 
 // RegisterLegacyAminoCodec registers the necessary x/staking interfaces and concrete types

@@ -3,11 +3,11 @@ package keeper
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/authz"
+	"github.com/blockgenx/blockgen-sdk/internal/conv"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/address"
+	"github.com/blockgenx/blockgen-sdk/types/kv"
+	"github.com/blockgenx/blockgen-sdk/x/authz"
 )
 
 // Keys for store prefixes

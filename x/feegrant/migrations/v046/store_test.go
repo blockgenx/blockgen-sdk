@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
-	v046 "github.com/cosmos/cosmos-sdk/x/feegrant/migrations/v046"
+	"github.com/blockgenx/blockgen-sdk/crypto/keys/ed25519"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/x/feegrant"
+	v046 "github.com/blockgenx/blockgen-sdk/x/feegrant/migrations/v046"
 	"github.com/stretchr/testify/require"
 )
 

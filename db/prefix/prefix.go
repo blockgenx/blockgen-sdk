@@ -3,7 +3,7 @@
 package prefix
 
 import (
-	"github.com/cosmos/cosmos-sdk/db"
+	"github.com/blockgenx/blockgen-sdk/db"
 )
 
 // prefixed Reader

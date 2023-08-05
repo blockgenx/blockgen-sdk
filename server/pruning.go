@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cast"
 
-	pruningtypes "github.com/cosmos/cosmos-sdk/pruning/types"
-	"github.com/cosmos/cosmos-sdk/server/types"
+	pruningtypes "github.com/blockgenx/blockgen-sdk/pruning/types"
+	"github.com/blockgenx/blockgen-sdk/server/types"
 )
 
 // GetPruningOptionsFromFlags parses command flags and returns the correct

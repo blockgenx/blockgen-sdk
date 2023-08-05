@@ -7,12 +7,12 @@ import (
 	"github.com/spf13/cobra"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/server"
+	"github.com/blockgenx/blockgen-sdk/types/module"
 )
 
-const chainUpgradeGuide = "https://github.com/cosmos/cosmos-sdk/blob/main/UPGRADING.md"
+const chainUpgradeGuide = "https://github.com/blockgenx/blockgen-sdk/blob/main/UPGRADING.md"
 
 // ValidateGenesisCmd takes a genesis file, and makes sure that it is valid.
 func ValidateGenesisCmd(mbm module.BasicManager) *cobra.Command {

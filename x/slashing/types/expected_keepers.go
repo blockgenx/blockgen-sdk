@@ -4,10 +4,10 @@ package types
 
 import (
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	auth "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	paramtypes "github.com/blockgenx/blockgen-sdk/x/params/types"
+	stakingtypes "github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 // AccountKeeper expected account keeper

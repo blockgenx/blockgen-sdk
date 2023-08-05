@@ -17,11 +17,11 @@ import (
 	"google.golang.org/grpc/codes"
 	grpcstatus "google.golang.org/grpc/status"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	snapshottypes "github.com/blockgenx/blockgen-sdk/snapshots/types"
+	"github.com/blockgenx/blockgen-sdk/telemetry"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
 )
 
 // Supported ABCI Query prefixes
@@ -384,7 +384,7 @@ func (app *BaseApp) halt() {
 // implements Queryable.
 func (app *BaseApp) Query(req abci.RequestQuery) (res abci.ResponseQuery) {
 	// Add panic recovery for all queries.
-	// ref: https://github.com/cosmos/cosmos-sdk/pull/8039
+	// ref: https://github.com/blockgenx/blockgen-sdk/pull/8039
 	defer func() {
 		if r := recover(); r != nil {
 			res = sdkerrors.QueryResult(sdkerrors.Wrapf(sdkerrors.ErrPanic, "%v", r), app.trace)

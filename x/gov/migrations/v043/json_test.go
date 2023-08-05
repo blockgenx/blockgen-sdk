@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v043gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/simapp"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	v043gov "github.com/blockgenx/blockgen-sdk/x/gov/migrations/v043"
+	"github.com/blockgenx/blockgen-sdk/x/gov/types/v1beta1"
 )
 
 func TestMigrateJSON(t *testing.T) {

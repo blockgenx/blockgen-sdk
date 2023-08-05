@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/blockgenx/blockgen-sdk/codec/types"
 )
 
 // NewGenesisState creates a new genesis state for the governance module

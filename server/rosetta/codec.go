@@ -1,11 +1,11 @@
 package rosetta
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	authcodec "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankcodec "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	codectypes "github.com/blockgenx/blockgen-sdk/codec/types"
+	cryptocodec "github.com/blockgenx/blockgen-sdk/crypto/codec"
+	authcodec "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	bankcodec "github.com/blockgenx/blockgen-sdk/x/bank/types"
 )
 
 // MakeCodec generates the codec required to interact

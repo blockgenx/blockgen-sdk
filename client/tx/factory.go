@@ -7,14 +7,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/blockgenx/blockgen-sdk/client"
+	"github.com/blockgenx/blockgen-sdk/client/flags"
+	"github.com/blockgenx/blockgen-sdk/crypto/keyring"
+	"github.com/blockgenx/blockgen-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/blockgenx/blockgen-sdk/crypto/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	"github.com/blockgenx/blockgen-sdk/types/tx"
+	"github.com/blockgenx/blockgen-sdk/types/tx/signing"
 )
 
 // Factory defines a client transaction factory that facilitates generating and
@@ -360,7 +360,7 @@ func (f Factory) BuildSimTx(msgs ...sdk.Msg) ([]byte, error) {
 // Note, we should only check for keys in the keybase if we are in simulate and execute mode,
 // e.g. when using --gas=auto.
 // When using --dry-run, we are is simulation mode only and should not check the keybase.
-// Ref: https://github.com/cosmos/cosmos-sdk/issues/11283
+// Ref: https://github.com/blockgenx/blockgen-sdk/issues/11283
 func (f Factory) getSimPK() (cryptotypes.PubKey, error) {
 	var (
 		ok bool

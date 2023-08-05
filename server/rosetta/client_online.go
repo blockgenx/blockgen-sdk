@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/blockgenx/blockgen-sdk/version"
 
 	abcitypes "github.com/tendermint/tendermint/abci/types"
 
@@ -21,14 +21,14 @@ import (
 	"github.com/tendermint/tendermint/rpc/client/http"
 	"google.golang.org/grpc"
 
-	crgerrs "github.com/cosmos/cosmos-sdk/server/rosetta/lib/errors"
-	crgtypes "github.com/cosmos/cosmos-sdk/server/rosetta/lib/types"
+	crgerrs "github.com/blockgenx/blockgen-sdk/server/rosetta/lib/errors"
+	crgtypes "github.com/blockgenx/blockgen-sdk/server/rosetta/lib/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	grpctypes "github.com/blockgenx/blockgen-sdk/types/grpc"
+	authtx "github.com/blockgenx/blockgen-sdk/x/auth/tx"
+	auth "github.com/blockgenx/blockgen-sdk/x/auth/types"
+	bank "github.com/blockgenx/blockgen-sdk/x/bank/types"
 
 	tmrpc "github.com/tendermint/tendermint/rpc/client"
 )

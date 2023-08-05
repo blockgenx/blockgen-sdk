@@ -1,11 +1,11 @@
 package distribution
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/distribution/keeper"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
+	"github.com/blockgenx/blockgen-sdk/x/distribution/keeper"
+	"github.com/blockgenx/blockgen-sdk/x/distribution/types"
+	govtypes "github.com/blockgenx/blockgen-sdk/x/gov/types/v1beta1"
 )
 
 func NewCommunityPoolSpendProposalHandler(k keeper.Keeper) govtypes.Handler {

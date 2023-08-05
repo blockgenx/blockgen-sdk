@@ -1,7 +1,7 @@
 package tmservice
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 	tmprototypes "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 

@@ -9,11 +9,11 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	pruningtypes "github.com/cosmos/cosmos-sdk/pruning/types"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	pruningtypes "github.com/blockgenx/blockgen-sdk/pruning/types"
+	"github.com/blockgenx/blockgen-sdk/snapshots"
+	snapshottypes "github.com/blockgenx/blockgen-sdk/snapshots/types"
+	"github.com/blockgenx/blockgen-sdk/testutil"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 )
 
 func TestGetBlockRentionHeight(t *testing.T) {
@@ -127,8 +127,8 @@ func TestGetBlockRentionHeight(t *testing.T) {
 
 // Test and ensure that invalid block heights always cause errors.
 // See issues:
-// - https://github.com/cosmos/cosmos-sdk/issues/11220
-// - https://github.com/cosmos/cosmos-sdk/issues/7662
+// - https://github.com/blockgenx/blockgen-sdk/issues/11220
+// - https://github.com/blockgenx/blockgen-sdk/issues/7662
 func TestBaseAppCreateQueryContext(t *testing.T) {
 	t.Parallel()
 

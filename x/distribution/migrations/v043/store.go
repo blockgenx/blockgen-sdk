@@ -1,9 +1,9 @@
 package v043
 
 import (
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v042distribution "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v042"
+	storetypes "github.com/blockgenx/blockgen-sdk/store/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	v042distribution "github.com/blockgenx/blockgen-sdk/x/distribution/migrations/v042"
 )
 
 // MigrateStore performs in-place store migrations from v0.40 to v0.43. The

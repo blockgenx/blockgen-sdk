@@ -3,7 +3,7 @@ package orm
 import (
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 )

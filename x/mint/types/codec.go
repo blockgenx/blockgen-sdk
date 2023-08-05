@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	cryptocodec "github.com/blockgenx/blockgen-sdk/crypto/codec"
 )
 
 var amino = codec.NewLegacyAmino()

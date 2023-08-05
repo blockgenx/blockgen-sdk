@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gotest.tools/v3/golden"
 
-	"github.com/cosmos/cosmos-sdk/container"
+	"github.com/blockgenx/blockgen-sdk/container"
 )
 
 type KVStoreKey struct {

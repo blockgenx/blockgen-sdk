@@ -5,8 +5,8 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	cdctypes "github.com/blockgenx/blockgen-sdk/codec/types"
+	sdkerrors "github.com/blockgenx/blockgen-sdk/types/errors"
 )
 
 // NewGrant returns new Grant. Expiration is optional and noop if null.

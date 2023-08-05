@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cosmos/cosmos-sdk/container/internal/graphviz"
+	"github.com/blockgenx/blockgen-sdk/container/internal/graphviz"
 )
 
 // ManyPerContainerType marks a type which automatically gets grouped together. For an ManyPerContainerType T,

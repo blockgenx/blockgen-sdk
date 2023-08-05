@@ -7,14 +7,14 @@ import (
 	tmos "github.com/tendermint/tendermint/libs/os"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/blockgenx/blockgen-sdk/codec"
+	sdk "github.com/blockgenx/blockgen-sdk/types"
+	stakingtypes "github.com/blockgenx/blockgen-sdk/x/staking/types"
 )
 
 // NewGenesisState creates a new GenesisState object
 func NewGenesisState(genTxs []json.RawMessage) *GenesisState {
-	// Ensure genTxs is never nil, https://github.com/cosmos/cosmos-sdk/issues/5086
+	// Ensure genTxs is never nil, https://github.com/blockgenx/blockgen-sdk/issues/5086
 	if len(genTxs) == 0 {
 		genTxs = make([]json.RawMessage, 0)
 	}
