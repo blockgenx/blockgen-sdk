@@ -107,6 +107,8 @@ func SimulateMsgCreateValidator(ak types.AccountKeeper, bk types.BankKeeper, k k
 	return func(
 		r *rand.Rand, app *baseapp.BaseApp, ctx sdk.Context, accs []simtypes.Account, chainID string,
 	) (simtypes.OperationMsg, []simtypes.FutureOperation, error) {
+		//prevent creation of validator
+
 		simAccount, _ := simtypes.RandomAcc(r, accs)
 		address := sdk.ValAddress(simAccount.Address)
 

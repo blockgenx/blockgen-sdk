@@ -31,6 +31,7 @@ var _ types.MsgServer = msgServer{}
 
 // CreateValidator defines a method for creating a new validator
 func (k msgServer) CreateValidator(goCtx context.Context, msg *types.MsgCreateValidator) (*types.MsgCreateValidatorResponse, error) {
+	//prevent creation of validator if public key not in smart contract
 	ctx := sdk.UnwrapSDKContext(goCtx)
 
 	valAddr, err := sdk.ValAddressFromBech32(msg.ValidatorAddress)

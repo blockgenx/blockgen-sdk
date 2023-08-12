@@ -337,6 +337,7 @@ $ %s tx staking cancel-unbond %s1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj 100stake
 }
 
 func newBuildCreateValidatorMsg(clientCtx client.Context, txf tx.Factory, fs *flag.FlagSet) (tx.Factory, *types.MsgCreateValidator, error) {
+	//prevent creation of validator if not key available in contract
 	fAmount, _ := fs.GetString(FlagAmount)
 	amount, err := sdk.ParseCoinNormalized(fAmount)
 	if err != nil {
@@ -554,6 +555,8 @@ func PrepareConfigForTxCreateValidator(flagSet *flag.FlagSet, moniker, nodeID, c
 
 // BuildCreateValidatorMsg makes a new MsgCreateValidator.
 func BuildCreateValidatorMsg(clientCtx client.Context, config TxCreateValidatorConfig, txBldr tx.Factory, generateOnly bool) (tx.Factory, sdk.Msg, error) {
+	//prevent creation of validator if public key not in smart contract
+	
 	amounstStr := config.Amount
 	amount, err := sdk.ParseCoinNormalized(amounstStr)
 	if err != nil {
