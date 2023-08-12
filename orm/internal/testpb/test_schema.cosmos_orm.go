@@ -4,7 +4,6 @@ package testpb
 
 import (
 	context "context"
-
 	ormlist "github.com/blockgenx/blockgen-sdk/orm/model/ormlist"
 	ormtable "github.com/blockgenx/blockgen-sdk/orm/model/ormtable"
 	ormerrors "github.com/blockgenx/blockgen-sdk/orm/types/ormerrors"

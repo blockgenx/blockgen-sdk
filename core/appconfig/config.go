@@ -14,7 +14,7 @@ import (
 
 	"github.com/blockgenx/blockgen-sdk/container"
 
-	appv1alpha1 "github.com/blockgenx/blockgen-sdk/api/cosmos/app/v1alpha1"
+	appv1alpha1 "github.com/cosmos/cosmos-sdk/api/cosmos/app/v1alpha1"
 
 	"cosmossdk.io/core/internal"
 )

@@ -12,7 +12,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	ormv1 "github.com/blockgenx/blockgen-sdk/api/cosmos/orm/v1"
+	ormv1 "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1"
 
 	"github.com/blockgenx/blockgen-sdk/orm/encoding/ormkv"
 	"github.com/blockgenx/blockgen-sdk/orm/types/ormerrors"

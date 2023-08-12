@@ -23,7 +23,7 @@ import (
 	"github.com/blockgenx/blockgen-sdk/orm/types/kv"
 
 	sdkerrors "cosmossdk.io/errors"
-	queryv1beta1 "github.com/blockgenx/blockgen-sdk/api/cosmos/base/query/v1beta1"
+	queryv1beta1 "github.com/cosmos/cosmos-sdk/api/cosmos/base/query/v1beta1"
 
 	"github.com/blockgenx/blockgen-sdk/orm/encoding/ormkv"
 	"github.com/blockgenx/blockgen-sdk/orm/internal/testkv"

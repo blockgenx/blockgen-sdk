@@ -8,7 +8,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	ormv1 "github.com/blockgenx/blockgen-sdk/api/cosmos/orm/v1"
+	ormv1 "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1"
 
 	"github.com/blockgenx/blockgen-sdk/orm/internal/fieldnames"
 	"github.com/blockgenx/blockgen-sdk/orm/model/ormtable"

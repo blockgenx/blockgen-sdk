@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	ormv1alpha1 "github.com/blockgenx/blockgen-sdk/api/cosmos/orm/v1alpha1"
+	ormv1alpha1 "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1alpha1"
 
 	"github.com/blockgenx/blockgen-sdk/orm/types/ormjson"
 
