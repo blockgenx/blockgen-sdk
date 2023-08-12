@@ -21,9 +21,8 @@ func DoTestGetSetHasDelete(t *testing.T, load Loader) {
 	db := load(t, t.TempDir())
 
 	var txn dbm.DBReadWriter
-	var view dbm.DBReader
+	view := db.Reader()
 
-	view = db.Reader()
 	require.NotNil(t, view)
 
 	// A nonexistent key should return nil.
@@ -247,6 +246,7 @@ func DoTestVersioning(t *testing.T, load Loader) {
 	has, err := view.Has([]byte("2"))
 	require.False(t, has)
 	require.NoError(t, view.Discard())
+	require.NoError(t, err)
 
 	view, err = db.ReaderAt(v2)
 	require.NoError(t, err)
@@ -260,13 +260,16 @@ func DoTestVersioning(t *testing.T, load Loader) {
 	has, err = view.Has([]byte("1"))
 	require.False(t, has)
 	require.NoError(t, view.Discard())
+	require.NoError(t, err)
 
 	view, err = db.ReaderAt(versions.Last() + 1)
 	require.Equal(t, dbm.ErrVersionDoesNotExist, err, "should fail to read a nonexistent version")
+	require.NoError(t, view.Discard())
 
 	require.NoError(t, db.DeleteVersion(v2), "should delete version v2")
 	view, err = db.ReaderAt(v2)
 	require.Equal(t, dbm.ErrVersionDoesNotExist, err)
+	require.NoError(t, view.Discard())
 
 	// Ensure latest version is accurate
 	prev := v3

@@ -138,7 +138,7 @@ type DBReadWriter interface {
 //
 // Callers must make sure the iterator is valid before calling any methods on it, otherwise
 // these methods will panic. This is in part caused by most backend databases using this convention.
-// Note that the iterator is invalid on contruction: Next() must be called to initialize it to its
+// Note that the iterator is invalid on construction: Next() must be called to initialize it to its
 // starting position.
 //
 // As with DBReader, keys and values should be considered read-only, and must be copied before they are

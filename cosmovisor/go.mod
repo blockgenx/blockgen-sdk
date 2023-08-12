@@ -3,7 +3,7 @@ module github.com/blockgenx/blockgen-sdk/cosmovisor
 go 1.18
 
 require (
-	github.com/blockgenx/blockgen-sdk v0.46.1
+	github.com/blockgenx/blockgen-sdk v0.1.0
 	github.com/hashicorp/go-getter v1.6.1
 	github.com/otiai10/copy v1.7.0
 	github.com/rs/zerolog v1.27.0

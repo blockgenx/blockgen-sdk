@@ -16,7 +16,6 @@ require (
 	github.com/cosmos/btcutil v1.0.5
 	github.com/cosmos/cosmos-proto v1.0.0-alpha7
 	github.com/cosmos/go-bip39 v1.0.0
-	github.com/blockgenx/blockgen-db v0.1.0
 	github.com/cosmos/gorocksdb v1.2.0
 	github.com/cosmos/iavl v0.19.5
 	github.com/cosmos/ledger-cosmos-go v0.12.2

@@ -40,7 +40,7 @@ func BenchmarkRangeScans(b *testing.B, db dbm.DBReadWriter, dbSize int64) {
 	b.StartTimer()
 
 	for i := 0; i < b.N; i++ {
-		start := rand.Int63n(dbSize - rangeSize) // nolint: gosec
+		start := rand.Int63n(dbSize - rangeSize) // nolint: gosecd
 		end := start + rangeSize
 		iter, err := db.Iterator(Int64ToBytes(start), Int64ToBytes(end))
 		require.NoError(b, err)
@@ -67,7 +67,7 @@ func BenchmarkRandomReadsWrites(b *testing.B, db dbm.DBReadWriter) {
 
 	for i := 0; i < b.N; i++ {
 		{
-			idx := rand.Int63n(numItems) // nolint: gosec
+			idx := rand.Int63n(numItems) // nolint: gosecd
 			internal[idx]++
 			val := internal[idx]
 			idxBytes := Int64ToBytes(idx)
@@ -80,7 +80,7 @@ func BenchmarkRandomReadsWrites(b *testing.B, db dbm.DBReadWriter) {
 		}
 
 		{
-			idx := rand.Int63n(numItems) // nolint: gosec
+			idx := rand.Int63n(numItems) // nolint: gosecd
 			valExp := internal[idx]
 			idxBytes := Int64ToBytes(idx)
 			valBytes, err := db.Get(idxBytes)
